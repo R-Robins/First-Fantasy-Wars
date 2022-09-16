@@ -12,4 +12,4 @@ Features:
 -One map supporting two players  
 
 Gameplay:  
-Players are given control of a team of units with the goal of wiping out the other player's characters. The game ends when one player has no remaining units. A turn ends after a movement, an action, or choosing to forfeit a turn. Turns occur one unit at a time before passing to the other player and cycles to the next available unit.
+Players are given control of a team of units with the goal of wiping out the other player's characters. The game ends when one player has no remaining units. Units can do one movement and one action every turn. A player may choose to skip or end their turn early. Turns occur one unit at a time before passing to the other player and cycles to the next available unit.

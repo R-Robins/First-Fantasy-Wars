@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 4f498c9275a0e4344bbeee4ec7c60f58
+timeCreated: 1526284421
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - owner: {instanceID: 0}
+  - characterModel: {fileID: 1839331633992750, guid: 418f5192146988946a61958429f46958,
+      type: 2}
+  - dummy: {instanceID: 0}
+  - animator: {instanceID: 0}
+  - currentTile: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

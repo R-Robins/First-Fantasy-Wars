@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1544903560975526}
+  m_IsPrefabParent: 1
+--- !u!1 &1544903560975526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4816111430489916}
+  - component: {fileID: 114119443800275068}
+  m_Layer: 0
+  m_Name: Mage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4816111430489916
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1544903560975526}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 612.8586, y: 156.81862, z: 975.2473}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114119443800275068
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1544903560975526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f498c9275a0e4344bbeee4ec7c60f58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  owner: {fileID: 0}
+  CharacterType: 
+  maxHealth: 100
+  health: 100
+  attack: 5
+  defense: 0
+  move: 2
+  xCoordinate: 0
+  yCoordinate: 0
+  abilities:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  availableAbilities:
+  - {fileID: 114136524414992422, guid: 1d6e35536dcfdae438af3e1d549ac7b6, type: 2}
+  - {fileID: 114631276575250534, guid: 7ab8e1091c2a19e4c9db1df14a20ea9f, type: 2}
+  - {fileID: 114898868507415176, guid: 39ba36a80602e634b8025f2bc0419633, type: 2}
+  - {fileID: 114896824398022404, guid: c11cc821b9255ea4b801e6595864e337, type: 2}
+  - {fileID: 114065404909188528, guid: 73c8a4a73569bec4985f6b890ae3dac3, type: 2}
+  characterModel: {fileID: 1187041258800650, guid: e0b24663442eb1049b7bd3fb33e7f7bc,
+    type: 2}
+  dummy: {fileID: 0}
+  isPlaced: 0
+  isMoving: 0
+  isAttacking: 0
+  isAlive: 1
+  destination: {x: 0, y: 0, z: 0}
+  speed: 4
+  rotationSpeed: 6
+  animator: {fileID: 0}
+  currentTile: {fileID: 0}
+  movementPath: []

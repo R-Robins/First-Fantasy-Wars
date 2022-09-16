@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1377810810163554}
+  m_IsPrefabParent: 1
+--- !u!1 &1377810810163554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4289169455616020}
+  - component: {fileID: 114110242822131890}
+  m_Layer: 0
+  m_Name: Bard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4289169455616020
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1377810810163554}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 612.8586, y: 156.81862, z: 975.2473}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114110242822131890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1377810810163554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7946d146014f8fa48a4be850c96bfd24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  owner: {fileID: 0}
+  CharacterType: 
+  maxHealth: 200
+  health: 200
+  attack: 20
+  defense: 0
+  move: 3
+  xCoordinate: 0
+  yCoordinate: 0
+  abilities:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  availableAbilities:
+  - {fileID: 114214267942669954, guid: ae9607f542ded73409a81cfbe25894b4, type: 2}
+  - {fileID: 114814654598847606, guid: 636b02c45ad54644583cdc4bc9cb02b7, type: 2}
+  - {fileID: 114793598257512674, guid: e7195a076bfc84a4882b661c276bbef4, type: 2}
+  - {fileID: 114846756052933668, guid: ef1e4021fa6b30e45b270a26166bc33c, type: 2}
+  - {fileID: 114051854831616726, guid: e2cd1be6ad3f60d48949382c759656f2, type: 2}
+  characterModel: {fileID: 1487988434121420, guid: fdadc246dd8214843b3fb3498e381575,
+    type: 2}
+  dummy: {fileID: 0}
+  isPlaced: 0
+  isMoving: 0
+  isAttacking: 0
+  isAlive: 1
+  destination: {x: 0, y: 0, z: 0}
+  speed: 4
+  rotationSpeed: 6
+  animator: {fileID: 0}
+  currentTile: {fileID: 0}
+  movementPath: []

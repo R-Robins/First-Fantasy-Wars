@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.09.00">
+    <object class="AudioFile" id="{6c17fcdf-394e-4a7a-ada8-09e50faafdc9}">
+        <property name="assetPath">
+            <value>FF_VO_WarriorDeath.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.82503401360544215</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{8544f7ed-b692-4d40-ad62-edaadb13d313}</destination>
+        </relationship>
+    </object>
+</objects>

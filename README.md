@@ -3,7 +3,7 @@
 Turn based RPG made in Unity.  
 
 Features:  
--Hexagon tiles for character placement and movement, including vertical movement, and terrain: difficult terrain and impassible terain (lava).  
+-Hexagon tiles for character placement and movement, including vertical movement, and terrain: difficult terrain and impassible terrain (lava).  
 -Custom pathfinding using A* search algorithm  
 -Numerous abilities, animations, and sound effects  
 -Music created through the music department at San Francisco State University  
